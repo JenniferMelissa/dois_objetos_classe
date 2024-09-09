@@ -25,8 +25,8 @@ class Pessoa:
         return f'Preciso ir agora, {pessoa1.nome}, depois nos falamos, tchau!'
 
 # Criando dois objetos da classe Pessoa
-pessoa1 = Pessoa(nome='Alice', idade=30)
-pessoa2 = Pessoa(nome='Bob', idade=25)
+pessoa1 = Pessoa(nome='João', idade=40)
+pessoa2 = Pessoa(nome='Paula', idade=25)
 
 # conversa
 print(pessoa1.cumprimentar(pessoa2))
